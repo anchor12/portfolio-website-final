@@ -1,0 +1,54 @@
+body {
+display: flex;
+justify-content: center;
+background-color: white;
+height: 600px;
+align-items: center;
+
+}
+
+.hello, .my-name-is {
+    border-left: 1.5px solid black;
+    font-size: 6em;
+    margin-bottom:-60px;
+    font-family: 'Times New Roman';
+}
+
+
+.natalie {
+    font-size: 12em; /*192 px*/
+    border-bottom: 1.5px solid black;
+    font-family: 'Times New Roman';
+    height: 192px;
+    
+}
+
+.links-container {
+    display:flex;
+    justify-content: space-around;
+    
+    font-family: 'Roboto Mono','Courier New';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    height: 20px;
+    
+
+}
+
+a {
+    margin-top: 10px;
+   line-height: 20px; 
+}
+
+a:visited, a:link, a:active, a:focus {
+    text-decoration: none;
+    color:black 
+}
+a:hover {
+    padding-bottom: 20px;
+    border-bottom: black 1.5px solid;
+    
+    
+
+}
