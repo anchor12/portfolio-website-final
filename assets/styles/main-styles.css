@@ -6,9 +6,11 @@ height: 600px;
 align-items: center;
 
 }
-
+.border-section {
+    border-left: 1.5px solid black;  
+}
 .hello, .my-name-is {
-    border-left: 1.5px solid black;
+    
     font-size: 6em;
     margin-bottom:-60px;
     font-family: 'Times New Roman';
@@ -17,7 +19,7 @@ align-items: center;
 
 .natalie {
     font-size: 12em; /*192 px*/
-    border-bottom: 1.5px solid black;
+   border-bottom: 1.5px solid black;
     font-family: 'Times New Roman';
     height: 192px;
     
