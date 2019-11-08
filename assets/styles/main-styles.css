@@ -6,24 +6,55 @@ height: 600px;
 align-items: center;
 
 }
-.border-section {
-    border-left: 1.5px solid black;  
+.title-container {
+    display: flex;
 }
+
+.line {
+    
+    height: 150px;
+    width: 1.5px;
+    
+    margin-right: 2px;
+    background-color: black;
+    
+    animation: height 1s ease; 
+ 
+    
+}
+.border-section {
+      
+    
+    display: flex;
+    
+    /*height: 162px;*/
+    margin-bottom:-50px;
+}
+
+
+
 .hello, .my-name-is {
     
     font-size: 6em;
     margin-bottom:-60px;
     font-family: 'Times New Roman';
 }
-
+.text {
+    margin-bottom: 50px;
+}
 
 .natalie {
     font-size: 12em; /*192 px*/
    border-bottom: 1.5px solid black;
     font-family: 'Times New Roman';
     height: 192px;
+    animation: border-bottom 1s ease; 
     
 }
+
+
+  
+  
 
 .links-container {
     display:flex;
@@ -34,6 +65,7 @@ align-items: center;
     font-size: 1.2em;
     color: black;
     height: 20px;
+    animation: links-fade-in 1.4s ease-in;
     
 
 }
@@ -53,4 +85,40 @@ a:hover {
     
     
 
+}
+
+
+
+@keyframes border-bottom {
+    from {
+        
+        width: 0%;
+        
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes height {
+    from {
+        height:0px
+    }
+    
+to  {
+    height: 150px;
+    
+}
+}
+
+@keyframes links-fade-in {
+    from {
+        opacity:0;
+    }
+    50% {
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }
 }
