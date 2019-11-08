@@ -14,20 +14,14 @@ align-items: center;
     
     height: 150px;
     width: 1.5px;
-    
     margin-right: 2px;
-    background-color: black;
-    
+    background-color: black; 
     animation: height 1s ease; 
  
     
 }
 .border-section {
-      
-    
     display: flex;
-    
-    /*height: 162px;*/
     margin-bottom:-50px;
 }
 
@@ -39,6 +33,7 @@ align-items: center;
     margin-bottom:-60px;
     font-family: 'Times New Roman';
 }
+
 .text {
     margin-bottom: 50px;
 }
@@ -82,9 +77,6 @@ a:visited, a:link, a:active, a:focus {
 a:hover {
     padding-bottom: 20px;
     border-bottom: black 1.5px solid;
-    
-    
-
 }
 
 
