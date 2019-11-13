@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "TimesAndroid"; /*Times New Roman doesn't work on Android devices so need to download the font*/
+    src: url("/fonts/Times-New-Roman/Times-New-Roman/times-new-roman.ttf") format("ttf");
+  }
+
 body {
 display: flex;
 justify-content: center;
@@ -7,13 +12,13 @@ align-items: center;
 
 }
 .title-container {
-    display: flex;
+    display: flex; 
 }
 
 .line {
     
-    height: 150px;
-    width: 1.5px;
+    height: 150px; 
+    width: 1.5px; 
     margin-right: 2px;
     background-color: black; 
     animation: height 1s ease; 
@@ -29,9 +34,9 @@ align-items: center;
 
 .hello, .my-name-is {
     
-    font-size: 6em;
+    font-size: 6em; /*96px or 6em*/
     margin-bottom:-60px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman','TimesAndroid';
 }
 
 .text {
@@ -39,9 +44,9 @@ align-items: center;
 }
 
 .natalie {
-    font-size: 12em; /*192 px*/
+    font-size: 12em; /*192 px or 12em*/
    border-bottom: 1.5px solid black;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', 'TimesAndroid';
     height: 192px;
     animation: border-bottom 1s ease; 
     
@@ -114,3 +119,5 @@ to  {
         opacity:1;
     }
 }
+
+
