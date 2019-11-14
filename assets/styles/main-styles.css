@@ -3,6 +3,7 @@
     src: url("./fonts/Times-New-Roman/Times-New-Roman/times-new-roman.ttf") format("ttf");
   }
 
+
 body {
 display: flex;
 justify-content: center;
@@ -36,7 +37,7 @@ align-items: center;
     
     font-size: 6em; /*96px or 6em*/
     margin-bottom:-60px;
-    font-family: 'Times New Roman','TimesAndroid';
+    font-family: 'Times New Roman', 'Lora';
 }
 
 .text {
@@ -46,7 +47,7 @@ align-items: center;
 .natalie {
     font-size: 12em; /*192 px or 12em*/
    border-bottom: 1.5px solid black;
-    font-family: 'Times New Roman', 'TimesAndroid';
+    font-family: 'Times New Roman', 'Lora';
     height: 192px;
     animation: border-bottom 1s ease; 
     
