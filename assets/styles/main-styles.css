@@ -1,6 +1,6 @@
 @font-face {
     font-family: "TimesAndroid"; /*Times New Roman doesn't work on Android devices so need to download the font*/
-    src: url("./fonts/Times-New-Roman/Times-New-Roman/times-new-roman.ttf") format("ttf");
+    src: url("./fonts/Times-New-Roman/Times-New-Roman/times-new-roman.ttf");
   }
 
 
@@ -37,7 +37,7 @@ align-items: center;
     
     font-size: 6em; /*96px or 6em*/
     margin-bottom:-60px;
-    font-family: 'Times New Roman', 'Lora';
+    font-family: 'Times New Roman', 'TimesAndroid';
 }
 
 .text {
@@ -47,7 +47,7 @@ align-items: center;
 .natalie {
     font-size: 12em; /*192 px or 12em*/
    border-bottom: 1.5px solid black;
-    font-family: 'Times New Roman', 'Lora';
+    font-family: 'Times New Roman', 'TimesAndroid';
     height: 192px;
     animation: border-bottom 1s ease; 
     
