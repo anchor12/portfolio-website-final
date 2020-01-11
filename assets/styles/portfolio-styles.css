@@ -1,0 +1,26 @@
+#right-column {
+flex-wrap: wrap;
+justify-content: center;
+display: flex;
+
+align-items: center;
+}
+
+img {
+    margin: 5px;
+}
+.links-container>a:visited, a:link, a:active, a:focus {
+    text-decoration: none;
+    color:black 
+}
+.links-container>a:hover {
+    padding-bottom: 20px;
+    border-bottom: black 1.5px solid;
+}
+
+#right-column>a:hover {
+    
+        
+        border: black 1.5px solid;
+    
+}

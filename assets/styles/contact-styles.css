@@ -1,0 +1,12 @@
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+img {
+    margin: 15px;
+}
+p {
+    text-align: center;
+}

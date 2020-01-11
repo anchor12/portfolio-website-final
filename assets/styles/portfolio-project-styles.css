@@ -1,0 +1,21 @@
+#right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#github-links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#github-links>a:hover {
+    padding-bottom: 0px;
+    border-bottom: black 1.5px solid;
+}
