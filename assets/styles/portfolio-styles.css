@@ -3,7 +3,13 @@ flex-wrap: wrap;
 justify-content: center;
 display: flex;
 
+
 align-items: center;
+}
+
+#heading {
+    width: 100%;
+    text-align: center;
 }
 
 img {
